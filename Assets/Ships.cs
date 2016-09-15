@@ -1,10 +1,11 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+//type numerical value == max displacement the ship can do
 public enum Ships
 {
     Auxiliary = 1,
-    Battleship = 2,
+    Battleship = 45000,
     Carrier = 3,
     Destroyer = 4,
     HCruiser = 5,
